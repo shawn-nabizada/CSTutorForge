@@ -52,7 +52,7 @@ IaC: Terraform (provision) + Ansible (post-provision bootstrapping)
 ```
 /apps
   /frontend            # Next.js app (App Router) — public UI + SSR
-  /bff                 # optional BFF or API Gateway
+  /bff                 # BFF or API Gateway
   /user-service        # auth, profiles
   /tutor-service       # tutor onboarding, specialties
   /booking-service     # sessions & bookings
